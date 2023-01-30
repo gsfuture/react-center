@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const element = <h1>Hello, world!</h1>;
+
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <App name={"菜鸟教程"} url={"http://www.runoob.com"} nickname={"Runoob"}/>,
     </React.StrictMode>,
     document.getElementById('root')
 );
