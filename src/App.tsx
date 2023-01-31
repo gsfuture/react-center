@@ -1123,11 +1123,38 @@ class MyComponent extends React.Component {
 mainDiv.push(<hr/>)
 mainDiv.push(<MyComponent />);
 
+//---------------------------------------------------------
+// state.js模块 对应上面的A.js
+let state = null;
 
+// @ts-ignore
+const useState = (value) => {
+    // 第一次调用的时候没有初始值，因此使用传入的初始值赋值
+    state = state || value
+    function dispatch(newValue) {
+        state = newValue
+    }
+    return [state, dispatch]
+}
 
+// 在其他模块中引入并使用 对应上面的B.js 相当于是一个hooks组件
+// import React from 'react'
+// import { useState } from './state'
+
+function Demo() {
+    const [count, setCount] = useState(0)
+    return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+mainDiv.push(<hr/>)
+mainDiv.push(<Demo />);
 
 
 //---------------------------------------------------------
+
+
+
+
+
 
 
 
