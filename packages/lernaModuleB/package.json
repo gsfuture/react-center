@@ -1,0 +1,29 @@
+{
+  "name": "lerna-module-b",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "module-b-key"
+  ],
+  "author": "lima <562979315@qq.com>",
+  "homepage": "https://github.com/gsfuture/react-center#readme",
+  "license": "ISC",
+  "main": "lib/lernaModuleB.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/gsfuture/react-center.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/gsfuture/react-center/issues"
+  }
+}
