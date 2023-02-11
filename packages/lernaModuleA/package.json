@@ -25,5 +25,10 @@
   },
   "bugs": {
     "url": "https://github.com/gsfuture/react-center/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "lerna-module-b": "^1.0.0",
+    "lodash": "^4.17.21"
   }
 }
