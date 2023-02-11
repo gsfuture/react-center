@@ -30,5 +30,9 @@
     "lodash": "^4.17.21",
     "zepto": "^1.2.0"
   },
-  "gitHead": "7141431c90e348691223f562ff353af7099acd88"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "gitHead": "9efb03739063186e0be2a93a7d13289b00e79c1e"
 }
