@@ -1,5 +1,5 @@
 {
-  "name": "lerna-module-b",
+  "name": "@lernaDemo/lerna-module-b",
   "version": "0.0.1",
   "description": "> TODO: description",
   "keywords": [

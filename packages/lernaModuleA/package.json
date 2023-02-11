@@ -1,5 +1,5 @@
 {
-  "name": "lerna-module-a",
+  "name": "@lernaDemo/lerna-module-a",
   "version": "0.0.1",
   "description": "> TODO: description",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.3",
-    "lerna-module-b": "^0.0.1",
+    "@lernaDemo/lerna-module-b": "^0.0.1",
     "lodash": "^4.17.21"
   }
 }
