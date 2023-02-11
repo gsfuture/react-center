@@ -1,5 +1,5 @@
 {
-  "name": "@lernaDemo/lerna-module-a",
+  "name": "@lerna-good/lerna-module-a",
   "version": "0.0.2",
   "description": "> TODO: description",
   "keywords": [
@@ -27,8 +27,9 @@
     "url": "https://github.com/gsfuture/react-center/issues"
   },
   "dependencies": {
-    "@lernaDemo/lerna-module-b": "^0.0.2",
+    "@lerna-good/lerna-module-b": "^0.0.2",
     "jquery": "^3.6.3",
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "32562b005a9857aa2365cf142a04b0ae76e54c6c"
 }
