@@ -1,6 +1,6 @@
 {
   "name": "@lernaDemo/lerna-module-b",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "keywords": [
     "module-b-key"
