@@ -35,6 +35,16 @@
 
 <script lang="ts" setup>
 import { Options, Vue } from 'vue-class-component';
+import {HelloA} from "@lerna-good/lerna-module-a/lib/HelloA";
+import {HelloB} from '@lerna-good/lerna-module-b/lib/HelloB'
+
+console.log("-------- vue3 ------------")
+
+
+let helloA = new HelloA();
+helloA.print();
+
+
 
 // @Options({
 //   props: {
@@ -44,6 +54,9 @@ import { Options, Vue } from 'vue-class-component';
 // export default class HelloWorld extends Vue {
 //   msg!: string
 // }
+
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
