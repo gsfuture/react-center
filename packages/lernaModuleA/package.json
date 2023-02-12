@@ -29,7 +29,9 @@
   "dependencies": {
     "@lerna-good/lerna-module-b": "^0.0.6",
     "jquery": "^3.6.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "react-demo": "^2.0.0",
+    "ts-node": "^10.9.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
