@@ -1,3 +1,14 @@
+vue create vue3ts_demo
+
+select manually : typescript
+
+React:
+create-react-app my-app
+
+lerna publish --force-publish=lerna-good --no-git-tag-version --no-push
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
