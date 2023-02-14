@@ -35,8 +35,8 @@
 
 <script lang="ts" setup>
 import { Options, Vue } from 'vue-class-component';
-import {HelloA} from "@lerna-good/lerna-module-a/lib/HelloA";
-import {HelloB} from '@lerna-good/lerna-module-b/lib/HelloB'
+import {HelloA} from "@lerna-good/lerna-module-a";
+import {HelloB} from '@lerna-good/lerna-module-b'
 
 console.log("-------- vue3 ------------")
 

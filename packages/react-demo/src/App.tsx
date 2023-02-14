@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {HelloA} from "@lerna-good/lerna-module-a/lib/HelloA";
+import {HelloA} from "@lerna-good/lerna-module-a";
 import { HelloDemo } from './HelloDemo';
 
 function App() {
   let helloA = new HelloA()
+  helloA.print();
   let helloDemo = new HelloDemo();
   helloDemo.print();
-  console.log("-----helloA",helloA);
+  // console.log("-----helloA",helloA);
 
   return (
     <div className="App">

@@ -7,5 +7,5 @@ export class HelloB {
 }
 
 
-let helloB = new HelloB();
-helloB.print();
+// let helloB = new HelloB();
+// helloB.print();

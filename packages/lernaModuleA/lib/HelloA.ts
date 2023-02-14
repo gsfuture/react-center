@@ -1,10 +1,10 @@
 // @ts-nocheck
-import {HelloB} from "../../lernaModuleB/lib/HelloB";
+import {HelloB} from "@lerna-good/lerna-module-b";
 
 export class HelloA {
 
     print(){
-        console.log("Hello A")
+        console.log("Hello A------")
 
         let helloB = new HelloB();
         helloB.print();
@@ -12,5 +12,5 @@ export class HelloA {
 }
 
 
-let helloA = new HelloA();
-helloA.print();
+// let helloA = new HelloA();
+// helloA.print();
