@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {HelloA} from "@lerna-good/lerna-module-a";
+import {HelloA,helloConstA} from "@lerna-good/lerna-module-a";
 import { HelloDemo } from './HelloDemo';
 
 function App() {
+  console.log("----- App helloConstA",helloConstA);
   let helloA = new HelloA()
   helloA.print();
   let helloDemo = new HelloDemo();
