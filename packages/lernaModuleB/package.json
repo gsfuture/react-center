@@ -21,7 +21,12 @@
     "url": "git+https://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@github.com/gsfuture/react-center.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "bugs": {
     "url": "https://github.com/gsfuture/react-center/issues"
@@ -36,5 +41,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "gitHead": "9efb03739063186e0be2a93a7d13289b00e79c1e"
+  "gitHead": "9efb03739063186e0be2a93a7d13289b00e79c1e",
+  "devDependencies": {
+    "ts-loader": "^9.4.2"
+  }
 }

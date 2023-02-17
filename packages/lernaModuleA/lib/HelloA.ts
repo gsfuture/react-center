@@ -5,6 +5,7 @@ export class HelloA {
 
     print(){
         console.log("Hello A------")
+        console.log("Hello A------ 2023")
 
         let helloB = new HelloB();
         helloB.print();
