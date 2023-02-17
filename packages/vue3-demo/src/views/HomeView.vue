@@ -6,8 +6,14 @@
 </template>
 
 <script lang="ts">
+
+
+import {HelloA,helloConstA} from "@lerna-good/lerna-module-a";
+
 import { Options, Vue } from 'vue-class-component';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+
+console.log("--------- vue3 constA",helloConstA)
 
 @Options({
   components: {
