@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import {HelloB} from "@lerna-good/lerna-module-b";
 
 export class HelloA {

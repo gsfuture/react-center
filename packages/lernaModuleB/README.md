@@ -1,11 +1,15 @@
-# `lernaModuleB`
+# 🚀 Welcome to your new awesome project!
 
-> TODO: description
-
-## Usage
+This project has been created using **webpack-cli**, you can now run
 
 ```
-const lernamoduleb = require('lernaModuleB');
-
-// TODO: DEMONSTRATE API
+npm run build
 ```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application

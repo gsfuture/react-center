@@ -9,6 +9,7 @@
 
 
 import {HelloA,helloConstA} from "@lerna-good/lerna-module-a";
+import {HelloB} from "@lerna-good/lerna-module-b";
 
 import { Options, Vue } from 'vue-class-component';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src

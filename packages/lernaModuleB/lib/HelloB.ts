@@ -1,8 +1,12 @@
 
 export class HelloB {
 
+    constructor(){
+
+    }
+
     print(){
-        console.log("Hello B")
+        console.log("Hello B-------")
     }
 }
 
