@@ -1,3 +1,4 @@
+
 vue create vue3ts_demo
 
 select manually : typescript
@@ -6,6 +7,27 @@ React:
 create-react-app my-app
 
 lerna publish --force-publish=lerna-good --no-git-tag-version --no-push
+
+
+安装 webpack
+npm install webpack webpack-cli -g
+
+初始化 webpack 
+webpack-cli init   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
