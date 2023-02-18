@@ -6,8 +6,8 @@ module.exports = {
 
   configureWebpack: {
     externals: {
-        lodash: '_',
-        "@lerna-good/lerna-module-a":"@lerna-good/lerna-module-a"
+        lodash: 'var window.lodash',
+        "lerna-module-a":"@lerna-good/lerna-module-a"
     }
  
   }

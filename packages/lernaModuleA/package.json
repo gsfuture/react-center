@@ -8,7 +8,7 @@
   "author": "lima <562979315@qq.com>",
   "homepage": "https://github.com/gsfuture/react-center#readme",
   "license": "ISC",
-  "main": "src/index.ts",
+  "main": "dist/main.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
