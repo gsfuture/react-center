@@ -7,7 +7,7 @@
 
 <script lang="ts">
 
-// import {HelloB} from "@lerna-good/lerna-module-b";
+import {HelloB} from "@lerna-good/lerna-module-b";
 // import {HelloA} from "@lerna-good/lerna-module-a";
 
 import { Options, Vue } from 'vue-class-component';
@@ -29,8 +29,14 @@ console.log("--------- lodash",res);  // getUsername
 // let helloA = new HelloA();
 // helloA.print();
 let helloB = new window.MyBoy.HelloB();
-// let helloB = new HelloB();
 helloB.print();
+
+
+console.log("--------- work now ?????");
+
+
+let helloB2 = new HelloB();
+helloB2.print();
 
 // console.log("--------- vue3 module constA",window.LernaModuleConstA)
 
