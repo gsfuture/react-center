@@ -23,7 +23,7 @@ const config = {
 
     libraryTarget: 'umd',
     // libraryExport: 'default' only export default class
-
+    library: 'MyBoy' // import "main.js" in other modules , use window.MyBoy.HelloB to make class instance
 
   },
   devServer: {

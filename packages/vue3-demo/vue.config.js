@@ -7,7 +7,7 @@ module.exports = {
   configureWebpack: {
     externals: {
         lodash: '_',
-        // "@lerna-good/lerna-module-b":"@lerna-good/lerna-module-b"
+        "@lerna-good/lerna-module-b":"var window.MyBoy"
     }
  
   }

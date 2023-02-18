@@ -16,7 +16,7 @@ export class HelloB {
     }
 
     print(){
-        console.log("Hello B-------")
+        console.log("Hello B------- BBBB -----")
     }
 }
 
