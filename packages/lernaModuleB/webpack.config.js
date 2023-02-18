@@ -13,6 +13,18 @@ const config = {
   entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
+
+    // library: {
+    //   name: 'HelloB',
+    //   type: 'umd',
+    //   export: 'default',
+    //   umdNamedDefine: true
+    // },
+
+    libraryTarget: 'umd',
+    // libraryExport: 'default' only export default class
+
+
   },
   devServer: {
     open: true,

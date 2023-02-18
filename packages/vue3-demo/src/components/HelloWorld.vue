@@ -40,12 +40,15 @@ import { Options, Vue } from 'vue-class-component';
 // import {HelloA} from 'lerna-module-a';
 
 
-import {HelloB} from '@lerna-good/lerna-module-b'
+// import {HelloB} from '@lerna-good/lerna-module-b'
 
 console.log("-------- vue3 ------------", window.LernaModuleConstA)
 
 // console.log("-------- helloWorld ------------",helloConstA)
 
+
+// let helloB = new HelloB();
+// helloB.print();
 
 // let helloA = new HelloA();
 // helloA.print();

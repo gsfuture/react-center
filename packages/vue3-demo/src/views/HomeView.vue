@@ -8,6 +8,7 @@
 <script lang="ts">
 
 import {HelloB} from "@lerna-good/lerna-module-b";
+import {HelloA} from "@lerna-good/lerna-module-a";
 
 import { Options, Vue } from 'vue-class-component';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
@@ -24,7 +25,13 @@ let res = _.camelCase('get_username')
 // 在控制台输出运行结果，证明lodash 库被正确引入
 console.log("--------- lodash",res);  // getUsername
 
-console.log("--------- vue3 module constA",window.LernaModuleConstA)
+
+let helloA = new HelloA();
+helloA.print();
+let helloB = new HelloB();
+helloB.print();
+
+// console.log("--------- vue3 module constA",window.LernaModuleConstA)
 
 
 // console.log("--------- vue3 constA",helloConstA)
