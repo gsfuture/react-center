@@ -15,6 +15,10 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 
 import * as _ from 'lodash'
+import {DateUtil} from "chain-hub-beta"
+
+console.log("----------- chain-hub-beta ",DateUtil.getNowDate());
+
 
 // const {HelloA,helloConstA} = window.LernaModuleA || {}; //from "@lerna-good/lerna-module-a";
 
@@ -42,6 +46,13 @@ helloB2.print();
 
 
 // console.log("--------- vue3 constA",helloConstA)
+
+
+
+
+
+// console.log("----------- chain-hub-beta ",DateUtil.getNowDate());
+
 
 @Options({
   components: {
