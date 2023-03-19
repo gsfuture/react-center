@@ -2,6 +2,16 @@
   "name": "react-center",
   "version": "0.1.0",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/css-modules-typescript-loader",
+      "**/@alifc/theme-lowcode-*",
+      "**/jest"
+    ]
+  },
   "dependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.11",
